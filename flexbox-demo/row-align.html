@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+<style>
+    .flex-container-2 {
+        /* 
+        display: flex;
+        flex-wrap: wrap;  
+        align-items: flex-start;
+        align-items: flex-end; 
+        align-items: center;
+        flex-direction: column;
+        */
+        display: flex;
+    }
+
+    .flex-container-2 > div {    
+        /* 
+            flex: 1 400px; 
+        */
+        flex: 1 400px; 
+    }  
+
+    .div-one {
+        order: 2;
+    }
+    .div-two {
+        order: 3; 
+    }
+    .div-three {
+        order: 1; 
+    }
+
+    nav ul {
+        justify-content: space-between;
+    }    
+
+</style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Vestibulum Elementum</a></li>
+            <li><a href="#">Morbi Ac</a></li>
+            <li><a href="#">Pellentesque</a></li>
+            <li><a href="#">Proin Finibus</a></li>
+        </ul>
+    </nav>    
+
+    <div class="flex-container-2">
+        <div class="div-one">Aenean gravida turpis in vehicula sollicitudin. Proin ligula mauris, fermentum et malesuada eu, lacinia ut lacus. Duis in iaculis urna. Aenean scelerisque finibus tellus, vel ornare leo eleifend bibendum. Duis auctor ipsum sed facilisis consectetur. Morbi eu felis ut orci mollis hendrerit. Quisque porttitor augue velit, ac scelerisque arcu aliquet ut. Curabitur pharetra urna quis dolor pharetra ullamcorper eget eu risus.</div>
+        <div class="div-two">Quisque hendrerit aliquam ligula, eu blandit est convallis at. Nullam arcu velit, interdum nec aliquet sollicitudin, posuere vel dolor. Proin gravida vitae neque quis varius. Nam auctor interdum lacus et iaculis. Mauris non maximus dui, non congue sem. <br><br>Mauris malesuada urna eros, sed sagittis ipsum facilisis et. In placerat molestie iaculis. Proin cursus porta tristique. Phasellus fermentum aliquet enim vitae porttitor. Nullam faucibus luctus feugiat. Integer ornare urna risus, eu sagittis massa egestas vitae. Etiam at tellus congue risus placerat ornare sed ut purus. Cras pretium ex massa, at fringilla nunc pretium ac. Curabitur facilisis libero a ipsum consectetur, sed eleifend tortor laoreet. Cras volutpat mi elit, at interdum felis ullamcorper et. Suspendisse potenti.</div>
+        <div class="div-three">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae</div> 
+    </div>
+   
+    <footer>
+        <div>Curabitur et leo elementum ornare erat sed venenatis velit.</div>
+    </footer>     
+
+</body>
+</html>
