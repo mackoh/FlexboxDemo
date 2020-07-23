@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      html, body {
+        background:rgb(255, 255, 255);
+      }      
+      .flex-container-3 {
+          /* 
+          display: flex;
+          flex-wrap: wrap;  
+          align-items: flex-start;
+          align-items: flex-end; 
+          align-items: center;
+          flex-direction: column;
+          */
+          display:flex;
+          padding: 80px 100px 100px 30px;
+      }
+  
+      .flex-container-3 > div {    
+          /* 
+            flex: 1; 
+            flex-basis: 5%;
+          */
+          flex: 1; 
+          flex-basis: 15%;
+      }  
+  
+     
+  
+  </style>    
+  </head>
+  <body>
+
+    <div class="flex-container-3">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+  </div>
+
+  </body>
+</html>
